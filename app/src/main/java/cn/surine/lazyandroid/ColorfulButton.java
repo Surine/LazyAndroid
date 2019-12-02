@@ -237,6 +237,7 @@ public class ColorfulButton extends AppCompatButton {
      */
     public ColorfulButton setColor(int color) {
         this.color = color;
+        update();
         return this;
     }
 
@@ -248,6 +249,7 @@ public class ColorfulButton extends AppCompatButton {
      */
     public ColorfulButton setCornerRadius(float cornerRadius) {
         this.cornerRadius = cornerRadius;
+        update();
         return this;
     }
 
@@ -270,6 +272,7 @@ public class ColorfulButton extends AppCompatButton {
      */
     public ColorfulButton setCornerArray(float[] cornerArray) {
         this.cornerArray = cornerArray;
+        update();
         return this;
     }
 
@@ -281,6 +284,7 @@ public class ColorfulButton extends AppCompatButton {
      */
     public ColorfulButton setStrokeWidth(float strokeWidth) {
         this.strokeWidth = strokeWidth;
+        update();
         return this;
     }
 
@@ -292,6 +296,7 @@ public class ColorfulButton extends AppCompatButton {
      */
     public ColorfulButton setStrokeColor(int strokeColor) {
         this.strokeColor = strokeColor;
+        update();
         return this;
     }
 
@@ -303,6 +308,7 @@ public class ColorfulButton extends AppCompatButton {
      */
     public ColorfulButton setDashGap(float dashGap) {
         this.dashGap = dashGap;
+        update();
         return this;
     }
 
@@ -314,6 +320,7 @@ public class ColorfulButton extends AppCompatButton {
      */
     public ColorfulButton setDashWidth(float dashWidth) {
         this.dashWidth = dashWidth;
+        update();
         return this;
     }
 
