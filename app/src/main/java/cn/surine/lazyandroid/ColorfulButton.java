@@ -199,7 +199,7 @@ public class ColorfulButton extends AppCompatButton {
         rippleColor = typedArray.getColor(R.styleable.ColorfulButton_rippleColor, Color.parseColor("#00000000"));
         cornerRadius = typedArray.getDimension(R.styleable.ColorfulButton_cornerRadius, 8);
         strokeColor = typedArray.getColor(R.styleable.ColorfulButton_strokeColor, NORMAL_COLOR);
-        strokeWidth = typedArray.getDimension(R.styleable.ColorfulButton_strokeWidth, 8);
+        strokeWidth = typedArray.getDimension(R.styleable.ColorfulButton_strokeWidth, 0);
 
         gradient = typedArray.getInteger(R.styleable.ColorfulButton_gradient, LINEAR);
         gradientOrientation = typedArray.getInteger(R.styleable.ColorfulButton_gradientOrientation, 6);
