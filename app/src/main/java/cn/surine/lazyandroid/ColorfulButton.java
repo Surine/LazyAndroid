@@ -82,7 +82,7 @@ public class ColorfulButton extends AppCompatButton {
     public static final int BOTTOM_TOP_INT = 4;
     public static final int BL_TR_INT = 5;
     public static final int LEFT_RIGHT_INT = 6;
-    public static final int TL_BR_INT = 6;
+    public static final int TL_BR_INT = 7;
 
     /**
      * 默认颜色
